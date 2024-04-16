@@ -1,0 +1,33 @@
+.location__container {
+    display: flex;
+    justify-content: center;
+}
+
+.location {
+    background-color: #072226;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    max-width: 450px;
+    width: 90%;
+    text-align: center;
+}
+
+.location__name {
+    color: #7cba24;
+}
+
+.location__list {
+    display: flex;
+}
+
+.location__item {
+    flex: 1;
+}
+
+.location__item span:last-child {
+    color: #777;
+}
