@@ -32,7 +32,8 @@ function App() {
           :
           <div className='app'>
             
-            <div className='app__title'>
+            <div>
+            <img className='app__title' src="../assets/title.png" alt="img header" />
             </div>
 
             <form className='app__form' onSubmit={handleSubmit}>
@@ -42,7 +43,7 @@ function App() {
 
             {
               hasError || inputValue === '0' ?
-                <h2>{'✖️Hey! you must  provide an id from 1 to 126😒'}</h2>
+                <h2 className='app_bug'>{'✖️Hey! you must  provide an id from 1 to 126😒'}</h2>
                 :
                 <div>
                   <LocationData

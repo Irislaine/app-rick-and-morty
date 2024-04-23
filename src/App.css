@@ -60,9 +60,11 @@ a{
 }
 
 .app__title {
-  height: 200px;
-  background-image: url('https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2015/07/rick-morty.jpg');
-  background-size: cover;
+  width: 100vw;
+  height: 30vh;
+  object-fit: cover;
+  object-position: center;
+  
 }
 
 .app__form {
@@ -86,4 +88,10 @@ a{
 
 .app__btn:hover {
   filter: brightness(1.1);
+}
+
+.app_bug {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
